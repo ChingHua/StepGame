@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 
+//為求方便 將Parse ID/Key 做統一管理
+static NSString *const ParseID  = @"37sMr08M1ovb6en1nQ7mm6wMa0wZS9w8EBrb8203";
+static NSString *const ParseKey  = @"VPIfQhgqixZKALeTzbhIurFTwYOrLZZPqRYS9oRn";
+//
 @interface AppDelegate ()
 
 @end
@@ -27,12 +31,33 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    
+    //====== 開始 Parse 設定 ======
+    [Parse enableLocalDatastore];   //允許本地儲存
+    
+    // Initialize Parse (初始化)
+    [Parse setApplicationId:@"37sMr08M1ovb6en1nQ7mm6wMa0wZS9w8EBrb8203"
+                  clientKey:@"VPIfQhgqixZKALeTzbhIurFTwYOrLZZPqRYS9oRn"];
+    
+    // [Optional] Track statistics around application opens.
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    //====== 結束 Parse 設定 ======
+    
+=======
+>>>>>>> Stashed changes
     //裝置版本判斷，註冊LocalNotification
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) {
         if ([UIApplication instancesRespondToSelector:@selector(registerUserNotificationSettings:)]) {
             [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound categories:nil ] ];
         }
     }
+<<<<<<< Updated upstream
+=======
+>>>>>>> FETCH_HEAD
+>>>>>>> Stashed changes
     return YES;
 }
 

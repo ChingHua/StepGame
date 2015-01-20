@@ -14,9 +14,31 @@
 		84BE8DC91A6D2FFD00C2A798 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BE8DC81A6D2FFD00C2A798 /* Images.xcassets */; };
 		84BE8DCC1A6D2FFD00C2A798 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BE8DCA1A6D2FFD00C2A798 /* LaunchScreen.xib */; };
 		84BE8DD81A6D2FFD00C2A798 /* StepGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE8DD71A6D2FFD00C2A798 /* StepGameTests.m */; };
+<<<<<<< Updated upstream
 		A9F677791A6E004A00E5F06E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F677781A6E004A00E5F06E /* MapKit.framework */; };
 		A9F6777B1A6E005200E5F06E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F6777A1A6E005200E5F06E /* CoreLocation.framework */; };
 		A9F6777E1A6E007900E5F06E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F6777D1A6E007900E5F06E /* MapViewController.m */; };
+=======
+<<<<<<< HEAD
+		AEC9E0DF1A6DF2030007A1CE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC9E0DD1A6DF2030007A1CE /* Bolts.framework */; };
+		AEC9E0E01A6DF2030007A1CE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC9E0DE1A6DF2030007A1CE /* Parse.framework */; };
+		AEC9E0E51A6DF2360007A1CE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC9E0E21A6DF2360007A1CE /* AudioToolbox.framework */; };
+		AEC9E0E61A6DF2360007A1CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC9E0E31A6DF2360007A1CE /* CoreGraphics.framework */; };
+		AEC9E0E71A6DF2360007A1CE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC9E0E41A6DF2360007A1CE /* CoreLocation.framework */; };
+		AEC9E0EC1A6DF2600007A1CE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC9E0E81A6DF2600007A1CE /* QuartzCore.framework */; };
+		AEC9E0ED1A6DF2600007A1CE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC9E0E91A6DF2600007A1CE /* Security.framework */; };
+		AEC9E0EE1A6DF2600007A1CE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC9E0EA1A6DF2600007A1CE /* StoreKit.framework */; };
+		AEC9E0EF1A6DF2600007A1CE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC9E0EB1A6DF2600007A1CE /* SystemConfiguration.framework */; };
+		AEC9E0F11A6DF2CA0007A1CE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC9E0F01A6DF2CA0007A1CE /* CFNetwork.framework */; };
+		AEC9E0F31A6DF2DF0007A1CE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC9E0F21A6DF2DF0007A1CE /* MobileCoreServices.framework */; };
+		AEC9E0F51A6DF2E70007A1CE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC9E0F41A6DF2E70007A1CE /* libz.dylib */; };
+		AEC9E0F71A6DF2F20007A1CE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC9E0F61A6DF2F20007A1CE /* libsqlite3.dylib */; };
+=======
+		A9F677791A6E004A00E5F06E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F677781A6E004A00E5F06E /* MapKit.framework */; };
+		A9F6777B1A6E005200E5F06E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F6777A1A6E005200E5F06E /* CoreLocation.framework */; };
+		A9F6777E1A6E007900E5F06E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F6777D1A6E007900E5F06E /* MapViewController.m */; };
+>>>>>>> FETCH_HEAD
+>>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +65,32 @@
 		84BE8DD11A6D2FFD00C2A798 /* StepGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BE8DD61A6D2FFD00C2A798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84BE8DD71A6D2FFD00C2A798 /* StepGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepGameTests.m; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+		AEC9E0DD1A6DF2030007A1CE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		AEC9E0DE1A6DF2030007A1CE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		AEC9E0E21A6DF2360007A1CE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AEC9E0E31A6DF2360007A1CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AEC9E0E41A6DF2360007A1CE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AEC9E0E81A6DF2600007A1CE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AEC9E0E91A6DF2600007A1CE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AEC9E0EA1A6DF2600007A1CE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AEC9E0EB1A6DF2600007A1CE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AEC9E0F01A6DF2CA0007A1CE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AEC9E0F21A6DF2DF0007A1CE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AEC9E0F41A6DF2E70007A1CE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		AEC9E0F61A6DF2F20007A1CE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+=======
+>>>>>>> Stashed changes
 		A9F677781A6E004A00E5F06E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A9F6777A1A6E005200E5F06E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A9F6777C1A6E007900E5F06E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		A9F6777D1A6E007900E5F06E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
+=======
+>>>>>>> FETCH_HEAD
+>>>>>>> Stashed changes
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +98,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< Updated upstream
 				A9F6777B1A6E005200E5F06E /* CoreLocation.framework in Frameworks */,
 				A9F677791A6E004A00E5F06E /* MapKit.framework in Frameworks */,
+=======
+<<<<<<< HEAD
+				AEC9E0F71A6DF2F20007A1CE /* libsqlite3.dylib in Frameworks */,
+				AEC9E0F51A6DF2E70007A1CE /* libz.dylib in Frameworks */,
+				AEC9E0F31A6DF2DF0007A1CE /* MobileCoreServices.framework in Frameworks */,
+				AEC9E0F11A6DF2CA0007A1CE /* CFNetwork.framework in Frameworks */,
+				AEC9E0EC1A6DF2600007A1CE /* QuartzCore.framework in Frameworks */,
+				AEC9E0ED1A6DF2600007A1CE /* Security.framework in Frameworks */,
+				AEC9E0EE1A6DF2600007A1CE /* StoreKit.framework in Frameworks */,
+				AEC9E0EF1A6DF2600007A1CE /* SystemConfiguration.framework in Frameworks */,
+				AEC9E0E51A6DF2360007A1CE /* AudioToolbox.framework in Frameworks */,
+				AEC9E0E61A6DF2360007A1CE /* CoreGraphics.framework in Frameworks */,
+				AEC9E0E71A6DF2360007A1CE /* CoreLocation.framework in Frameworks */,
+				AEC9E0E01A6DF2030007A1CE /* Parse.framework in Frameworks */,
+				AEC9E0DF1A6DF2030007A1CE /* Bolts.framework in Frameworks */,
+=======
+				A9F6777B1A6E005200E5F06E /* CoreLocation.framework in Frameworks */,
+				A9F677791A6E004A00E5F06E /* MapKit.framework in Frameworks */,
+>>>>>>> FETCH_HEAD
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +137,17 @@
 		84BE8DAF1A6D2FFD00C2A798 = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
 				A9F6777A1A6E005200E5F06E /* CoreLocation.framework */,
 				A9F677781A6E004A00E5F06E /* MapKit.framework */,
+=======
+<<<<<<< HEAD
+				AEC9E0E11A6DF20A0007A1CE /* Framework */,
+=======
+				A9F6777A1A6E005200E5F06E /* CoreLocation.framework */,
+				A9F677781A6E004A00E5F06E /* MapKit.framework */,
+>>>>>>> FETCH_HEAD
+>>>>>>> Stashed changes
 				84BE8DBA1A6D2FFD00C2A798 /* StepGame */,
 				84BE8DD41A6D2FFD00C2A798 /* StepGameTests */,
 				84BE8DB91A6D2FFD00C2A798 /* Products */,
@@ -94,10 +168,20 @@
 			children = (
 				84BE8DBF1A6D2FFD00C2A798 /* AppDelegate.h */,
 				84BE8DC01A6D2FFD00C2A798 /* AppDelegate.m */,
+<<<<<<< HEAD
+=======
 				84BE8DC21A6D2FFD00C2A798 /* ViewController.h */,
 				84BE8DC31A6D2FFD00C2A798 /* ViewController.m */,
 				A9F6777F1A6E00FE00E5F06E /* ViewController */,
+<<<<<<< Updated upstream
+=======
+>>>>>>> FETCH_HEAD
+>>>>>>> Stashed changes
 				84BE8DC51A6D2FFD00C2A798 /* Main.storyboard */,
+				AEC9E0D91A6DEF870007A1CE /* Home VC */,
+				AEC9E0DA1A6DEFD50007A1CE /* Mission VC */,
+				AEC9E0DB1A6DEFEC0007A1CE /* Book VC */,
+				AEC9E0DC1A6DEFF60007A1CE /* Setting VC */,
 				84BE8DC81A6D2FFD00C2A798 /* Images.xcassets */,
 				84BE8DCA1A6D2FFD00C2A798 /* LaunchScreen.xib */,
 				84BE8DBB1A6D2FFD00C2A798 /* Supporting Files */,
@@ -131,6 +215,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+		AEC9E0D91A6DEF870007A1CE /* Home VC */ = {
+			isa = PBXGroup;
+			children = (
+				84BE8DC21A6D2FFD00C2A798 /* ViewController.h */,
+				84BE8DC31A6D2FFD00C2A798 /* ViewController.m */,
+			);
+			name = "Home VC";
+			sourceTree = "<group>";
+		};
+		AEC9E0DA1A6DEFD50007A1CE /* Mission VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Mission VC";
+			sourceTree = "<group>";
+		};
+		AEC9E0DB1A6DEFEC0007A1CE /* Book VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Book VC";
+			sourceTree = "<group>";
+		};
+		AEC9E0DC1A6DEFF60007A1CE /* Setting VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Setting VC";
+			sourceTree = "<group>";
+		};
+		AEC9E0E11A6DF20A0007A1CE /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				AEC9E0F61A6DF2F20007A1CE /* libsqlite3.dylib */,
+				AEC9E0F41A6DF2E70007A1CE /* libz.dylib */,
+				AEC9E0F21A6DF2DF0007A1CE /* MobileCoreServices.framework */,
+				AEC9E0F01A6DF2CA0007A1CE /* CFNetwork.framework */,
+				AEC9E0E81A6DF2600007A1CE /* QuartzCore.framework */,
+				AEC9E0E91A6DF2600007A1CE /* Security.framework */,
+				AEC9E0EA1A6DF2600007A1CE /* StoreKit.framework */,
+				AEC9E0EB1A6DF2600007A1CE /* SystemConfiguration.framework */,
+				AEC9E0E21A6DF2360007A1CE /* AudioToolbox.framework */,
+				AEC9E0E31A6DF2360007A1CE /* CoreGraphics.framework */,
+				AEC9E0E41A6DF2360007A1CE /* CoreLocation.framework */,
+				AEC9E0DD1A6DF2030007A1CE /* Bolts.framework */,
+				AEC9E0DE1A6DF2030007A1CE /* Parse.framework */,
+			);
+			name = Framework;
+=======
+>>>>>>> Stashed changes
 		A9F6777F1A6E00FE00E5F06E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +275,10 @@
 				A9F6777D1A6E007900E5F06E /* MapViewController.m */,
 			);
 			name = ViewController;
+<<<<<<< Updated upstream
+=======
+>>>>>>> FETCH_HEAD
+>>>>>>> Stashed changes
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,6 +508,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = StepGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -377,6 +522,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = StepGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
