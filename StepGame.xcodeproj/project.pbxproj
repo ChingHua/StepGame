@@ -14,6 +14,9 @@
 		84BE8DC91A6D2FFD00C2A798 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BE8DC81A6D2FFD00C2A798 /* Images.xcassets */; };
 		84BE8DCC1A6D2FFD00C2A798 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BE8DCA1A6D2FFD00C2A798 /* LaunchScreen.xib */; };
 		84BE8DD81A6D2FFD00C2A798 /* StepGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE8DD71A6D2FFD00C2A798 /* StepGameTests.m */; };
+		A9F677791A6E004A00E5F06E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F677781A6E004A00E5F06E /* MapKit.framework */; };
+		A9F6777B1A6E005200E5F06E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F6777A1A6E005200E5F06E /* CoreLocation.framework */; };
+		A9F6777E1A6E007900E5F06E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F6777D1A6E007900E5F06E /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		84BE8DD11A6D2FFD00C2A798 /* StepGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BE8DD61A6D2FFD00C2A798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84BE8DD71A6D2FFD00C2A798 /* StepGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepGameTests.m; sourceTree = "<group>"; };
+		A9F677781A6E004A00E5F06E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A9F6777A1A6E005200E5F06E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A9F6777C1A6E007900E5F06E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		A9F6777D1A6E007900E5F06E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F6777B1A6E005200E5F06E /* CoreLocation.framework in Frameworks */,
+				A9F677791A6E004A00E5F06E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,8 @@
 		84BE8DAF1A6D2FFD00C2A798 = {
 			isa = PBXGroup;
 			children = (
+				A9F6777A1A6E005200E5F06E /* CoreLocation.framework */,
+				A9F677781A6E004A00E5F06E /* MapKit.framework */,
 				84BE8DBA1A6D2FFD00C2A798 /* StepGame */,
 				84BE8DD41A6D2FFD00C2A798 /* StepGameTests */,
 				84BE8DB91A6D2FFD00C2A798 /* Products */,
@@ -85,6 +96,7 @@
 				84BE8DC01A6D2FFD00C2A798 /* AppDelegate.m */,
 				84BE8DC21A6D2FFD00C2A798 /* ViewController.h */,
 				84BE8DC31A6D2FFD00C2A798 /* ViewController.m */,
+				A9F6777F1A6E00FE00E5F06E /* ViewController */,
 				84BE8DC51A6D2FFD00C2A798 /* Main.storyboard */,
 				84BE8DC81A6D2FFD00C2A798 /* Images.xcassets */,
 				84BE8DCA1A6D2FFD00C2A798 /* LaunchScreen.xib */,
@@ -117,6 +129,15 @@
 				84BE8DD61A6D2FFD00C2A798 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9F6777F1A6E00FE00E5F06E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A9F6777C1A6E007900E5F06E /* MapViewController.h */,
+				A9F6777D1A6E007900E5F06E /* MapViewController.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +243,7 @@
 				84BE8DC41A6D2FFD00C2A798 /* ViewController.m in Sources */,
 				84BE8DC11A6D2FFD00C2A798 /* AppDelegate.m in Sources */,
 				84BE8DBE1A6D2FFD00C2A798 /* main.m in Sources */,
+				A9F6777E1A6E007900E5F06E /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +436,7 @@
 				84BE8DDD1A6D2FFD00C2A798 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84BE8DDE1A6D2FFD00C2A798 /* Build configuration list for PBXNativeTarget "StepGameTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +445,7 @@
 				84BE8DE01A6D2FFD00C2A798 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
